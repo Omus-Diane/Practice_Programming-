@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omus_Diane_MidtermExam", "Omus_Diane_MidtermExam\Omus_Diane_MidtermExam.csproj", "{4012E2D6-5638-4D71-AA58-334521513815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4012E2D6-5638-4D71-AA58-334521513815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4012E2D6-5638-4D71-AA58-334521513815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4012E2D6-5638-4D71-AA58-334521513815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4012E2D6-5638-4D71-AA58-334521513815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28C3594-0775-40A0-A44C-0D870B0DC3F3}
+	EndGlobalSection
+EndGlobal
