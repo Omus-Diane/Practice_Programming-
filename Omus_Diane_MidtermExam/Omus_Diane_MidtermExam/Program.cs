@@ -10,13 +10,13 @@ namespace Omus_Diane_MidtermExam
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-
-            string currentPin = "112925";
-            decimal balance = 123456.78m;
+            // Default Information
+            string defaultPin = "112925";
+            double balance = 123456.78;
             int maxAttempts = 3;
             int attempts = 0;
             bool isAuthenticated = false;
+            Console.OutputEncoding = Encoding.UTF8;
 
             // Welcome Message 
             Console.Clear();
@@ -31,7 +31,7 @@ namespace Omus_Diane_MidtermExam
                     Console.Write("PLEASE ENTER YOUR 6-DIGIT PIN: ");
                     string pinInput = Console.ReadLine();
 
-                    if (pinInput == currentPin)
+                    if (pinInput == defaultPin)
                     {
                         isAuthenticated = true;
                         Console.WriteLine("PIN ACCEPTED. ACCESS GRANTED.");
@@ -68,10 +68,12 @@ namespace Omus_Diane_MidtermExam
                 Console.WriteLine($"| {"6. EXIT/CANCEL",-42}|");
                 Console.WriteLine(" ");
 
+                Console.Write("PLEASE SELECT A TRANSACTION (1-6): ");
+                string mainMenu = Console.ReadLine();
+                int menuChoice = Convert.ToInt32(mainMenu);
+
                 try
                 {
-                    Console.Write("PLEASE SELECT A TRANSACTION (1-6): ");
-                    int menuChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch (menuChoice)
                     {
@@ -79,7 +81,8 @@ namespace Omus_Diane_MidtermExam
                             // View Balance
                             Console.Clear();
                             Console.WriteLine($"| {" ",-7} {"VIEW BALANCE",-35} |");
-                            Console.WriteLine($"| {"YOUR CURRENT BALANCE IS: ",-30}{balance,12:C2} |");
+                            Console.WriteLine($"| {"YOUR CURRENT BALANCE IS: ",-30} {balance,12:C2} |");
+
                             break;
 
                         case 2:
@@ -87,16 +90,32 @@ namespace Omus_Diane_MidtermExam
                             Console.Clear();
                             Console.WriteLine($"|{" ",-7} {"ACTIVATE ENROLLMENTS",-35}|");
                             Console.WriteLine(" ");
-                            Console.WriteLine($"|{"AVAILABLE ENROLLEMENTS TO ACTIVATE.",-42}|");
+                            Console.WriteLine($"|{"AVAILABLE ENROLLMENTS TO ACTIVATE.",-42}|");
                             Console.WriteLine($"| {"1. MOBILE NUMBER",-42}|");
                             Console.WriteLine($"| {"2. EMAIL ADDRESS",-42}|");
                             Console.WriteLine($"| {"3. NEWLY ENROLLED DEVICE",-42}|");
                             break;
-                    }
+                        case 3: 
+                            // PIN Services
+                            Console.Clear();
+                            break;
+                        case 4: 
+                            // Pay Bills
+                            Console.Clear();
+                            break;
+                        case 5: 
+                            // Withdraw Money
+                            Console.Clear();
+                            break;
+                        case 6:
+                            // Exit 
+                            Console.Clear();
+                            break;
+                    }   
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"AN ERROR OCCURRED: {ex.Message}");
+                    Console.WriteLine($"An error occured: {ex.Message}"); 
                 }
             }   
         }

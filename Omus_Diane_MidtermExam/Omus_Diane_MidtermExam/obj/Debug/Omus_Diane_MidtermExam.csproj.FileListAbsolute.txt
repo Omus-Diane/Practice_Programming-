@@ -6,3 +6,10 @@ C:\Users\Diane Angela Omus\OneDrive\Documents\Practice Programming\Omus_Diane_Mi
 C:\Users\Diane Angela Omus\OneDrive\Documents\Practice Programming\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.exe
 C:\Users\Diane Angela Omus\OneDrive\Documents\Practice Programming\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.pdb
 C:\Users\Diane Angela Omus\OneDrive\Documents\Practice Programming\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.exe.config
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\bin\Debug\Omus_Diane_MidtermExam.exe.config
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\bin\Debug\Omus_Diane_MidtermExam.exe
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\bin\Debug\Omus_Diane_MidtermExam.pdb
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.csproj.AssemblyReference.cache
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.csproj.CoreCompileInputs.cache
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.exe
+C:\Users\25-002s\Documents\Diane Omus Github\practice\Practice_Programming-\Omus_Diane_MidtermExam\Omus_Diane_MidtermExam\obj\Debug\Omus_Diane_MidtermExam.pdb
